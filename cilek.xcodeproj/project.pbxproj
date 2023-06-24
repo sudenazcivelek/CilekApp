@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E60C17F2A4772F3000FCFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C17E2A4772F3000FCFF4 /* AppDelegate.swift */; };
+		9E60C1812A4772F3000FCFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C1802A4772F3000FCFF4 /* SceneDelegate.swift */; };
+		9E60C1832A4772F3000FCFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C1822A4772F3000FCFF4 /* ViewController.swift */; };
+		9E60C1862A4772F3000FCFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E60C1842A4772F3000FCFF4 /* Main.storyboard */; };
+		9E60C1882A4772F4000FCFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E60C1872A4772F4000FCFF4 /* Assets.xcassets */; };
+		9E60C18B2A4772F4000FCFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E60C1892A4772F4000FCFF4 /* LaunchScreen.storyboard */; };
+		9E60C1962A4772F4000FCFF4 /* cilekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C1952A4772F4000FCFF4 /* cilekTests.swift */; };
+		9E60C1A02A4772F4000FCFF4 /* cilekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C19F2A4772F4000FCFF4 /* cilekUITests.swift */; };
+		9E60C1A22A4772F4000FCFF4 /* cilekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60C1A12A4772F4000FCFF4 /* cilekUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E60C1922A4772F4000FCFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E60C1732A4772F3000FCFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E60C17A2A4772F3000FCFF4;
+			remoteInfo = cilek;
+		};
+		9E60C19C2A4772F4000FCFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E60C1732A4772F3000FCFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E60C17A2A4772F3000FCFF4;
+			remoteInfo = cilek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E60C17B2A4772F3000FCFF4 /* cilek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cilek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E60C17E2A4772F3000FCFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E60C1802A4772F3000FCFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E60C1822A4772F3000FCFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E60C1852A4772F3000FCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E60C1872A4772F4000FCFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E60C18A2A4772F4000FCFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E60C18C2A4772F4000FCFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E60C1912A4772F4000FCFF4 /* cilekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cilekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E60C1952A4772F4000FCFF4 /* cilekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cilekTests.swift; sourceTree = "<group>"; };
+		9E60C19B2A4772F4000FCFF4 /* cilekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cilekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E60C19F2A4772F4000FCFF4 /* cilekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cilekUITests.swift; sourceTree = "<group>"; };
+		9E60C1A12A4772F4000FCFF4 /* cilekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cilekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E60C1782A4772F3000FCFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C18E2A4772F4000FCFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C1982A4772F4000FCFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E60C1722A4772F3000FCFF4 = {
+			isa = PBXGroup;
+			children = (
+				9E60C17D2A4772F3000FCFF4 /* cilek */,
+				9E60C1942A4772F4000FCFF4 /* cilekTests */,
+				9E60C19E2A4772F4000FCFF4 /* cilekUITests */,
+				9E60C17C2A4772F3000FCFF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E60C17C2A4772F3000FCFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E60C17B2A4772F3000FCFF4 /* cilek.app */,
+				9E60C1912A4772F4000FCFF4 /* cilekTests.xctest */,
+				9E60C19B2A4772F4000FCFF4 /* cilekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E60C17D2A4772F3000FCFF4 /* cilek */ = {
+			isa = PBXGroup;
+			children = (
+				9E60C17E2A4772F3000FCFF4 /* AppDelegate.swift */,
+				9E60C1802A4772F3000FCFF4 /* SceneDelegate.swift */,
+				9E60C1822A4772F3000FCFF4 /* ViewController.swift */,
+				9E60C1842A4772F3000FCFF4 /* Main.storyboard */,
+				9E60C1872A4772F4000FCFF4 /* Assets.xcassets */,
+				9E60C1892A4772F4000FCFF4 /* LaunchScreen.storyboard */,
+				9E60C18C2A4772F4000FCFF4 /* Info.plist */,
+			);
+			path = cilek;
+			sourceTree = "<group>";
+		};
+		9E60C1942A4772F4000FCFF4 /* cilekTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E60C1952A4772F4000FCFF4 /* cilekTests.swift */,
+			);
+			path = cilekTests;
+			sourceTree = "<group>";
+		};
+		9E60C19E2A4772F4000FCFF4 /* cilekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E60C19F2A4772F4000FCFF4 /* cilekUITests.swift */,
+				9E60C1A12A4772F4000FCFF4 /* cilekUITestsLaunchTests.swift */,
+			);
+			path = cilekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E60C17A2A4772F3000FCFF4 /* cilek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E60C1A52A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilek" */;
+			buildPhases = (
+				9E60C1772A4772F3000FCFF4 /* Sources */,
+				9E60C1782A4772F3000FCFF4 /* Frameworks */,
+				9E60C1792A4772F3000FCFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cilek;
+			productName = cilek;
+			productReference = 9E60C17B2A4772F3000FCFF4 /* cilek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E60C1902A4772F4000FCFF4 /* cilekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E60C1A82A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilekTests" */;
+			buildPhases = (
+				9E60C18D2A4772F4000FCFF4 /* Sources */,
+				9E60C18E2A4772F4000FCFF4 /* Frameworks */,
+				9E60C18F2A4772F4000FCFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E60C1932A4772F4000FCFF4 /* PBXTargetDependency */,
+			);
+			name = cilekTests;
+			productName = cilekTests;
+			productReference = 9E60C1912A4772F4000FCFF4 /* cilekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E60C19A2A4772F4000FCFF4 /* cilekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E60C1AB2A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilekUITests" */;
+			buildPhases = (
+				9E60C1972A4772F4000FCFF4 /* Sources */,
+				9E60C1982A4772F4000FCFF4 /* Frameworks */,
+				9E60C1992A4772F4000FCFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E60C19D2A4772F4000FCFF4 /* PBXTargetDependency */,
+			);
+			name = cilekUITests;
+			productName = cilekUITests;
+			productReference = 9E60C19B2A4772F4000FCFF4 /* cilekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E60C1732A4772F3000FCFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9E60C17A2A4772F3000FCFF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9E60C1902A4772F4000FCFF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9E60C17A2A4772F3000FCFF4;
+					};
+					9E60C19A2A4772F4000FCFF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9E60C17A2A4772F3000FCFF4;
+					};
+				};
+			};
+			buildConfigurationList = 9E60C1762A4772F3000FCFF4 /* Build configuration list for PBXProject "cilek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E60C1722A4772F3000FCFF4;
+			productRefGroup = 9E60C17C2A4772F3000FCFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E60C17A2A4772F3000FCFF4 /* cilek */,
+				9E60C1902A4772F4000FCFF4 /* cilekTests */,
+				9E60C19A2A4772F4000FCFF4 /* cilekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E60C1792A4772F3000FCFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E60C18B2A4772F4000FCFF4 /* LaunchScreen.storyboard in Resources */,
+				9E60C1882A4772F4000FCFF4 /* Assets.xcassets in Resources */,
+				9E60C1862A4772F3000FCFF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C18F2A4772F4000FCFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C1992A4772F4000FCFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E60C1772A4772F3000FCFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E60C1832A4772F3000FCFF4 /* ViewController.swift in Sources */,
+				9E60C17F2A4772F3000FCFF4 /* AppDelegate.swift in Sources */,
+				9E60C1812A4772F3000FCFF4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C18D2A4772F4000FCFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E60C1962A4772F4000FCFF4 /* cilekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E60C1972A4772F4000FCFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E60C1A02A4772F4000FCFF4 /* cilekUITests.swift in Sources */,
+				9E60C1A22A4772F4000FCFF4 /* cilekUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E60C1932A4772F4000FCFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E60C17A2A4772F3000FCFF4 /* cilek */;
+			targetProxy = 9E60C1922A4772F4000FCFF4 /* PBXContainerItemProxy */;
+		};
+		9E60C19D2A4772F4000FCFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E60C17A2A4772F3000FCFF4 /* cilek */;
+			targetProxy = 9E60C19C2A4772F4000FCFF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E60C1842A4772F3000FCFF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E60C1852A4772F3000FCFF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E60C1892A4772F4000FCFF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E60C18A2A4772F4000FCFF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E60C1A32A4772F4000FCFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E60C1A42A4772F4000FCFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E60C1A62A4772F4000FCFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cilek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E60C1A72A4772F4000FCFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cilek/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E60C1A92A4772F4000FCFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cilek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cilek";
+			};
+			name = Debug;
+		};
+		9E60C1AA2A4772F4000FCFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cilek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cilek";
+			};
+			name = Release;
+		};
+		9E60C1AC2A4772F4000FCFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cilek;
+			};
+			name = Debug;
+		};
+		9E60C1AD2A4772F4000FCFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sude.cilekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cilek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E60C1762A4772F3000FCFF4 /* Build configuration list for PBXProject "cilek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60C1A32A4772F4000FCFF4 /* Debug */,
+				9E60C1A42A4772F4000FCFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E60C1A52A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60C1A62A4772F4000FCFF4 /* Debug */,
+				9E60C1A72A4772F4000FCFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E60C1A82A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60C1A92A4772F4000FCFF4 /* Debug */,
+				9E60C1AA2A4772F4000FCFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E60C1AB2A4772F4000FCFF4 /* Build configuration list for PBXNativeTarget "cilekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60C1AC2A4772F4000FCFF4 /* Debug */,
+				9E60C1AD2A4772F4000FCFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E60C1732A4772F3000FCFF4 /* Project object */;
+}
